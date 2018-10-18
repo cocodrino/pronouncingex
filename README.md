@@ -30,7 +30,7 @@ Pronouncingex.pronounce("kidding", :arpabet)
 
 ### the simplified version can be improved for future releases
 
-many thanks to [aparrish](https://github.com/aparrish/pronouncingjs) for the idea, this is a simplified version and use IPA instead of Arpabet
+many thanks to [aparrish](https://github.com/aparrish/pronouncingjs) for the idea, this is a simplified version and use IPA along with Arpabet
 
 
 
