@@ -21,7 +21,7 @@ Pronouncingex.pronounce("are you kidding me", :ipa)
 
 #get a simplified pronunciation
 Pronouncingex.pronounce("are you kidding me")
-# => "Ar yU kIdIn m̩i"
+# => Ar yU kIdIn m̩i 
 
 #you can get the Arpabet pronunciation but just for a word (for a phrase arpabet can be a bit clumsy)
 Pronouncingex.pronounce("kidding", :arpabet)
