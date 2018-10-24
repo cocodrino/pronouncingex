@@ -4,7 +4,7 @@ defmodule Pronouncingex.MixProject do
   def project do
     [
       app: :pronouncingex,
-      version: "0.1.1",
+      version: "0.1.2",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -28,7 +28,7 @@ defmodule Pronouncingex.MixProject do
 
   defp package do
     [
-      files: ["lib", "mix.exs", "README*","cmudict-0.7b.txt"],
+      files: ["lib", "mix.exs", "README*","priv"],
       maintainers: ["Carlos L Medina"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/cocodrino/pronouncingex"}

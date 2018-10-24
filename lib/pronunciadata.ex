@@ -108,7 +108,7 @@ defmodule Pronunciadata do
 
 
   defmemo parseCMU do
-    File.stream!("cmudict-0.7b.txt")
+    File.stream!(to_string(:code.priv_dir(:cmu))<>"/cmudict-0.7b.txt")
     |> Stream.filter(fn(line) ->  String.length(line)>0 && !Regex.match?(~r/^;/,line)  end)
     |> Stream.map(fn(line)->
       [word|phones] = String.split(line," ")
