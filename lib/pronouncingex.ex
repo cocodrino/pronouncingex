@@ -2,7 +2,12 @@ defmodule Pronouncingex do
   @moduledoc """
   Documentation for Pronouncingex.
   """
-
+  @doc """
+  Pronouncingex.pronounce
+  ## Examples
+      iex> Pronouncingex.pronounce("are you kidding me", :ipa)
+      ɑɹ ju kɪdɪŋ m̩i
+  """
   def pronounce(w, phonetic \\ :simplified)
 
   def pronounce(w, :arpabet) do
