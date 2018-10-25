@@ -3,4 +3,4 @@
               {description,"get the english (IPA) pronunciation for a word or phrase\n"},
               {modules,['Elixir.Pronouncingex','Elixir.Pronunciadata']},
               {registered,[]},
-              {vsn,"0.1.3"}]}.
+              {vsn,"0.1.4"}]}.

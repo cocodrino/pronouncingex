@@ -21,6 +21,8 @@ defmodule Pronouncingex do
 
   def pronounce(words, phonetic) do
     words
+    |>String.downcase
+    |> String.replace(~r/[^A-Za-z\sàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœ]/,"")
     |> String.split(" ")
     |> Enum.reject(fn w -> w == "" end) #remove possible whitespaces
     |>Enum.map(fn w ->
