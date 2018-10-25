@@ -8,7 +8,7 @@
 ```elixir
 def deps do
   [
-    {:pronouncingex, "~> 0.1.3"}
+    {:pronouncingex, "~> 0.1.4"}
   ]
 end
 ```
